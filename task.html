@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+</head>
+<body>
+    <center><h1 class="counter">0</h1></center>
+    <center><h1 class="para">Hi bro</h1></center>
+    <script>
+        var con = document.querySelector(".counter");
+        let i=1;
+        setInterval(()=>{
+                if(i<=10){
+                con.innerHTML=i;
+                i++;
+            }
+            
+        },1000)
+        var text = document.querySelector(".para");
+        setTimeout(() => {
+            text.innerHTML="Bye Bro";
+        }, 10000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Caveat:wght@400..700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Fredoka:wght@300..700&family=Julee&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+    font-family: "Fredoka", sans-serif;
+    color: black;
+}
+.a{
+    padding: 10px;
+}
+body{
+    background-color: #00ff2f;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    height: 110px;
+}
+.rnvbar{
+    padding-right: 40px;
+   
+}
+.lnavbar{
+    position: relative;
+    
+    left: 40px;
+}
+.button-70 {
+  background-image: linear-gradient(#ffffff, #f6f6f6);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
+  font-size: .9em;
+  margin: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .div{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    margin: 100px 0;
+    border-radius: 7px;
+  }
+  .box{
+    padding: 20px;
+}
+.new{
+            height: 900px;
+            width: 90%;
+            padding-top: 20px;
+            margin: 100px auto;
+            display: flex;
+            padding-left: 200px;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-between;
+            padding: 20pxpx;
+            
+
+        }
+        .box{
+            height: 300px;
+            width: 50px;
+        }
+      
+        .box{
+display: block;
+width: 100%;
+border-radius: 16px;
+
+        }
+        .box:hover{
+            transform: scale(1.3);
+            z-index: 2;
+            transition: 1s;
+
+        }
+        .nnew{
+            
+            width: 90%;
+          
+            padding-left: 80px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+
+        }
+        .box{
+            
+            height: 300px;
+            width: 50px;
+        }
+      
+        .box{
+            display: block;
+             width: 100%;
+            border-radius: 16px;
+
+        }
+        .box:hover{
+            transform: scale(1.3);
+            z-index: 2;
+            transition: 1s;
+        }
